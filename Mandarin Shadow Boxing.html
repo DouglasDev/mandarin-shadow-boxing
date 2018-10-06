@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mandarin Shadow Boxing</title>
+
+	<link rel="stylesheet" href="style.css">
+    <script src="jquery-3.3.1.min.js"></script>
+	<script src="howler.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<main>
+	<div id="instructions-dialogue" class='dialogue'>	
+	<button	onclick=$("#instructions-dialogue").css("display","none")>Close</button><br>
+		1. Select the sentence you want to practice.<br>
+		2. Press 'Start Shadow Boxing' to begin.<br>
+		3. First listen to the sentence. Press 'next' to play the sentence.<br>
+		4. Keep pressing the 'next' button until you have completed 10 reps.<br>
+		5. Press the 'continue' button to practice individual words, again for 10 reps each<br>
+		6. After you finish practicing each word, you will practice multiple words together<br>
+		7. Continue pratice until you can say the sentence with perfect pronunciation, rhythm and intonation.<br>
+		<br>
+		I recommend practicing each section for at least 10 reps, and you can practice as many times as you like by pressing 'next'. If you want to skip a section, press 'skip'.
+	</div>
+
+	<div id="what_is-dialogue" class='dialogue'>
+		<button	onclick=$("#what_is-dialogue").css("display","none")>Close</button><br>
+
+	<strong>What is Shadowing?</strong>
+		<br><br>
+	Shadowing is a highly effective technique for learning a foreign language, created by the legendary polyglot Alexander Arguelles. The process is simple: listen to a recording in a foreign language, and speak along with it, imitating the sounds you are hearing as accurately as possible.
+		<br><br>
+	<strong>What is Shadow Boxing?</strong>
+		<br><br>
+	Shadow Boxing facilitates shadowing by breaking up a sentence into the simplest components - words and short phrases (boxes), allowing you to practice and master them individually before recombining them into a whole. Shadow Boxing allows you to rapidly improve your accent and increase your fluency in a foreign language with minimal difficulty.
+
+	</div>
+
+	<div id="heading">
+		<h1>Mandarin Shadow Boxing</h1>
+			<button id="what_is"
+			onclick=$("#what_is-dialogue").css("display","block")>What is Shadow Boxing?</button>
+			
+	</div>
+	<div id="app">
+		<div class='right'>
+			<h2>English:&nbsp<span id="english"></span></h2>
+			<h2>&nbspHanzi:&nbsp<span id="zhongwen"></span></h2>
+			<h2>Pinyin:&nbsp<span id="pinyin"></span></h2>
+			<h2>Literal:&nbsp<span id="englishLiteral"></span></h2>
+
+			<div id="controls">
+				<button id="next-rep"><strong>play</strong></button>
+				<button id="skip">skip</button>
+				<h3 class='inline'> Reps Left: <span id="reps_left"></span></h3>
+			</div>
+		</div>
+		<div class='left'>
+			<button id="instructions" class="left-menu" 
+			onclick=$("#instructions-dialogue").css("display","block")>Instructions</button>
+
+
+			<select id="sentence-selector" class="left-menu">
+			  <option value="Choose" selected disabled hidden>Choose a Sentence to Shadow</option>
+			  <option value="imEatingRice">I am eating rice.</option>
+			  <option value="iWentForAWalkInThePark">I went for a walk in the park.</option>
+			  <option value="liveinbigcity">I live in a big city.</option>
+			  <option value="toomuchcoffee">You drink too much coffee.</option>
+	  		  <option value="dogrunsfast">This dog runs very fast!</option>
+
+			</select>
+			<button id="shadow" class="left-menu" onclick="start()">Start Practicing</button>
+		</div>
+	</div>
+	</main>
+	<p id='credits'>Douglas Lerner 2018</p>
+
+</body>
+</html>
