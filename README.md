@@ -1,13 +1,13 @@
-What is Shadowing?
+<h2>What is Shadowing?</h2>
 		
 Shadowing is a highly effective technique for learning a foreign language, created by the legendary polyglot Alexander Arguelles. The process is simple: listen to a recording in a foreign language, and speak along with it, imitating the sounds you are hearing as accurately as possible.
 
-What is Shadow Boxing?
+<h2>What is Shadow Boxing?</h2>
 
 Shadow Boxing facilitates shadowing by breaking up a sentence into the simplest components - words and short phrases (boxes), allowing you to practice and master them individually before recombining them into a whole. Shadow Boxing allows you to rapidly improve your accent and increase your fluency in a foreign language with minimal difficulty.
 
 
-Instructions:
+<h2>Instructions:</h2>
 
 Select the sentence you want to practice and press 'Start Shadow Boxing' to begin.
 		
