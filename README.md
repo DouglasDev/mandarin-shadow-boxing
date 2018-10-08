@@ -24,4 +24,4 @@ I recommend doing each exercise for at least 10 repetitions for maximum effectiv
 Continue practicing until you can say the sentence with perfect pronunciation, rhythm and intonation. You may want to repeat the lesson over the course of several days.
 
 
-Written using the howler.js library and jQuery.
+<h3>Written using the howler.js library and jQuery.</h3>
