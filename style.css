@@ -97,11 +97,15 @@ h1,#credits{
 		overflow: auto;
 
 	}
+	#instructions-dialogue{
+		height:160% !important;
+	}
 }
 
 
 #instructions-dialogue{
 	line-height: 140%;
+	height: 120%;
 }
 
 #shadow{
